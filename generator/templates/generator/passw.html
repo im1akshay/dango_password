@@ -1,0 +1,8 @@
+{% extends 'generator/base.html' %}
+
+{% block content %}
+    <div class="container text-center">
+        <h3>This is Password - <span class="text-danger">{{ pass }}</span></h3>        
+        <a class="btn btn-info" href="{% url 'home' %}">home</a>
+    </div>
+{% endblock %}
